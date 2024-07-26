@@ -23,14 +23,34 @@ fn main() {
 
     //Tupple 
 
-    let emp_info: (&str,u8) = ("Jai", 23);
+    // let emp_info: (&str,u8) = ("Jai", 23);
     
     // let emp_name = emp_info.0;
     // let emp_age = emp_info.1;
 
     // println!("The employee name is {} and age is {}", emp_name, emp_age);
 
-    let (employee_name, employee_age) = emp_info;
-    println!("The employee name is {} and age is {}", employee_name, employee_age);
+    // let (employee_name, employee_age) = emp_info;
+    // println!("The employee name is {} and age is {}", employee_name, employee_age);
+     
 
-}
+     // functions 
+
+    // print_val(5);
+//     let num :u8 = 4;
+//     let num1 :u8 = 6;
+//     let sum :u8 = sum_add(num,num1);
+//     println!("{}",sum)
+
+   
+ } 
+ 
+
+// fn print_val(num:u8) {
+// println!("{}",num)
+// }
+
+// fn sum_add(num:u8,num1:u8) -> u8 {
+//   return   num+num1;
+// }
+
