@@ -1,3 +1,5 @@
+const GLOBAL_DATA:u8 = 121;
+
 fn main() {
      
      //Data Types
@@ -41,6 +43,24 @@ fn main() {
 //     let num1 :u8 = 6;
 //     let sum :u8 = sum_add(num,num1);
 //     println!("{}",sum)
+
+println!("{}",GLOBAL_DATA);
+
+// OwnerShip =>>
+
+// this is the Stack memory 
+let a = 10 ;
+let b = a;
+println!("{}", a);
+println!("{}", b);
+
+// This is Heap Memory  => OwnerShip will change in this 
+
+let srt1 = String::from("jai"); // str1 is the owner of "Jai"
+let srt2 = srt1;                 // Changing of the Ownership, Srt2 will be the new owner of "Jai"
+// println!(" string 1{}", srt1);
+println!("String 2 {}", srt2);
+
 
    
  } 
