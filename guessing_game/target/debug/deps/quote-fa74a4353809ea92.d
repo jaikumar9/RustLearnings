@@ -1,0 +1,11 @@
+C:\Users\DELL_5\Desktop\Rust_Learnings\guessing_game\target\debug\deps\libquote-fa74a4353809ea92.rmeta: C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src/lib.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\ext.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\format.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\ident_fragment.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\to_tokens.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\runtime.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\spanned.rs
+
+C:\Users\DELL_5\Desktop\Rust_Learnings\guessing_game\target\debug\deps\quote-fa74a4353809ea92.d: C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src/lib.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\ext.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\format.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\ident_fragment.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\to_tokens.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\runtime.rs C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\spanned.rs
+
+C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src/lib.rs:
+C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\ext.rs:
+C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\format.rs:
+C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\ident_fragment.rs:
+C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\to_tokens.rs:
+C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\runtime.rs:
+C:\Users\DELL_5\.cargo\registry\src\index.crates.io-6f17d22bba15001f\quote-1.0.37\src\spanned.rs:
