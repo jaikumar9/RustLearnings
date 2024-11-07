@@ -15,10 +15,17 @@ fn main() {
     multiple_condition();
 
     // Using if in a let Statement 
-
     if_in_let();
 
     loop_example();
+
+    loop_return();
+
+    loop_label();
+
+    while_loop();
+
+    loop_collection();
 
 }
 
@@ -55,10 +62,84 @@ fn loop_example() {
 
     loop {
         println!("The value of counter is {counter}");
-        counter = counter + 1;
+    //  if counter == 5 {
+    //     continue;
+    //  }
 
-        if counter == 11 {
+        if counter == 10 {
             break;
+        } 
+        counter = counter + 1;
+    }
+}
+
+// Loop is Also an Expression 
+// Returning Values from Loops
+
+fn loop_return() {
+    let mut counter = 0;
+
+    let result = loop {
+        counter += 1;
+
+        if counter == 10 {
+            break counter * 2;
         }
+    };
+
+    println!("The result is {result}");
+}
+
+// Loop Labels 
+
+fn loop_label() {
+    let mut count = 0;
+    'counting_up: loop {
+        println!("count = {count}");
+        let mut remaining = 10;
+
+        loop {
+            println!("remaining = {remaining}");
+            if remaining == 9 {
+                break;
+            }
+            if count == 2 {
+                break 'counting_up;
+            }
+            remaining -= 1;
+        }
+
+        count += 1;
+    }
+    println!("End count = {count}");
+}
+
+
+// Conditional Loops with while 
+
+fn while_loop() {
+    let mut number = 3;
+
+    while number != 0 {
+        println!("{number}!");
+
+        number -= 1;
+    }
+
+    println!("LIFTOFF!!!");
+}
+
+// Looping Through a Collection 
+
+fn loop_collection() {
+    let mut a = [10, 20, 30, 40, 50];
+    let mut index = 0;
+
+    while index < 5 {
+        a[index] += 1;
+        println!("The value at index {} is: {}", index, a[index]);
+
+        
+        index += 1;
     }
 }
