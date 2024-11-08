@@ -27,6 +27,8 @@ fn main() {
 
     loop_collection();
 
+    for_loop_collection();
+
 }
 
 // Handling Multiple Conditions with else if
@@ -129,7 +131,7 @@ fn while_loop() {
     println!("LIFTOFF!!!");
 }
 
-// Looping Through a Collection 
+// Looping Through a Collection (While)
 
 fn loop_collection() {
     let mut a = [10, 20, 30, 40, 50];
@@ -138,8 +140,20 @@ fn loop_collection() {
     while index < 5 {
         a[index] += 1;
         println!("The value at index {} is: {}", index, a[index]);
-
-        
         index += 1;
     }
+}
+
+// Looping though a collection (for)
+
+fn for_loop_collection() {
+    let mut a = [10, 2, 30, 420, 501,45,23,24,78];
+
+    // Using indices to modify the original array
+    for i in (0..a.len()).rev() {
+        a[i] += 1;
+        println!("The value is: {}", a[i]);
+    }
+
+    println!("The value of a is: {:?}", a);
 }
